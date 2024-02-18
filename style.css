@@ -1,0 +1,180 @@
+/*Syntax for SCC
+Selector {
+	Property: value;
+}*/
+
+
+body,html
+{
+	margin:auto 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#DAF49C 5%, #631145 70%) no-repeat center center fixed;
+	background:opacity 20%;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity:100%;
+}
+
+.grid1container{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns:repeat(auto-fill,minmax(200px, 1fr));
+  /*grid-template-rows: 1fr;*/
+  grid-gap:0.3%; 
+  
+  
+}
+.grid2container{
+  display: grid;
+  align-items: center; 
+  justify-items: center;
+  /*grid-template-columns:2fr;*/
+  grid-template-columns:repeat(auto-fill,minmax(200px, 1fr));
+  /*grid-template-rows: 1fr;*/
+  grid-gap:0.3%; 
+  
+}
+.logocontainer{
+  display: grid;
+  grid-template-columns:5fr;
+  /* grid-template-rows: 1fr;*/
+  /*grid-gap:1%;*/
+  
+}
+
+h1,h2
+{
+	font-family: pacifico, cambria;
+	color:white;
+}
+	
+p,h4,h3
+{
+	color:white;
+	font-size-adjust:0.5em;
+	font-family:Playfair Display, cambria;
+}	
+ 
+
+
+li{
+	display: inline-block;
+	font-size: 20px;
+	font-family:Playfair Display, cambria;
+	padding: 4px;
+	color:#4E0031;
+	font-weight:bold;
+}
+
+.buffer
+{
+	height: 2rem;
+	
+}
+
+/********************************************* BUTTON PROPERTIES ****************************************/
+.btn-primary{
+	background: linear-gradient(to top left, #C1E66C 10%, #BF5A99 70%); /*1F0A0A,FF9F26*/
+	border: 1px solid #e2dbdb;
+	font-family: Playfair Display, cambria;
+	text-transform: uppercase;
+	color:white;
+	font-weight:bold;
+}
+
+
+.btn-primary:hover{
+	background: linear-gradient(to top left, #8D1E64 10%, #82AA24 90%); /*#FF9F26  271C0C*/
+	border: 1px solid #C2BDB6;
+	border-width: 3px;
+}
+		
+.btn-xl
+{
+	padding: 20px 15px;
+	color:white;
+}
+
+a{
+	color:#4E0031;	
+	text-decoration:none;
+}	
+		
+
+/******************************************** FORM PROPERTIES *******************************************/
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 8%;
+  background-color: gray;
+  color: white;
+  padding: 5px 5px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 8%;
+  background-color: gray;
+  color: white;
+  padding: 5px 5px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset]:hover {
+  background-color: #45a049;
+  
+}
+
+
+
+/********************************************************** image setting ***************************************************/
+
+img {
+	height:200px;
+	width: 200px;
+	margin: 8px;
+	border: 3px solid #4E0031; /*#FFF300;*/
+}	
+
+	
+	
